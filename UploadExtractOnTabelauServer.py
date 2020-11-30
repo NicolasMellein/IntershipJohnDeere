@@ -37,7 +37,7 @@ with server.auth.sign_in(tableau_auth):
 
     #Documentation: https://tableau.github.io/server-client-python/docs/api-ref#datasourcespublish
 
-    #projectID = Project-ID von “Supply Management Shared Services Region 2 (Restricted)”: d0e92725-c4be-49c4-afb3-e4d0159722b1
+    #projectID = Project-ID von “Supply Management Shared Services Region 2 (Restricted)”: 
 
     project_id = ''
     file_path = 'C:/Users/junxonm/Desktop/test_hyper_extract_api.hyper'
