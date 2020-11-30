@@ -12,7 +12,7 @@ with open("C:\\Nico\\Password.txt") as f:
 tableau_auth = TSC.TableauAuth(username='junxonm', password=password)
 
 # create an instance for your server
-server = TSC.Server('https://tableau.deere.com/')
+server = TSC.Server('')
 
 # call the sign-in method with the auth object
 server.auth.sign_in(tableau_auth)
@@ -39,7 +39,7 @@ with server.auth.sign_in(tableau_auth):
 
     #projectID = Project-ID von “Supply Management Shared Services Region 2 (Restricted)”: d0e92725-c4be-49c4-afb3-e4d0159722b1
 
-    project_id = 'd0e92725-c4be-49c4-afb3-e4d0159722b1'
+    project_id = ''
     file_path = 'C:/Users/junxonm/Desktop/test_hyper_extract_api.hyper'
 
     # Use the project id to create new datsource_item
